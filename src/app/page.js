@@ -61,7 +61,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="fixed top-0 left-0 right-1/3 bottom-0 cursor-grab active:cursor-grabbing">
+      <div className="fixed top-0 left-0 right-0 md:right-1/3 bottom-1/3 md:bottom-0 cursor-grab active:cursor-grabbing">
         <Scene colors={colors} configuration={configuration} />
       </div>
       <UI
