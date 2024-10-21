@@ -25,7 +25,7 @@ export default function Scene({ configuration, colors }) {
   return (
     <Canvas resize camera={{ position: [0, 2, 4] }} shadows dpr={[1, 2]}>
       <OrbitControls />
-      <Stats />
+      {/* <Stats /> */}
       <group>
         {Object.keys(configuration).map((key) =>
           configuration[key] ? (
